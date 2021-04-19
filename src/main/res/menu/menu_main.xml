@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.todolist.MainActivity">
+    <item
+        android:id="@+id/actions_clear_all"
+        android:title="@string/action_clearAll" />
+    <item
+        android:id="@+id/actions_informations"
+        android:title="@string/action_informations" />
+    <item
+        android:id="@+id/actions_contexts"
+        android:orderInCategory="100"
+        android:title="@string/action_contexts"
+        app:showAsAction="never" />
+</menu>
